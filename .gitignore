@@ -1,0 +1,8 @@
+# NEVER commit secrets
+secrets.h
+*.pem
+*.crt
+*.key
+*.pem.crt
+*.pem.key
+.env
