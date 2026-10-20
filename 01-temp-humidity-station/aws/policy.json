@@ -1,0 +1,9 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Effect": "Allow", "Action": "iot:Connect",
+      "Resource": "arn:aws:iot:REGION:ACCOUNT_ID:client/p1-esp32-sim-01" },
+    { "Effect": "Allow", "Action": "iot:Publish",
+      "Resource": "arn:aws:iot:REGION:ACCOUNT_ID:topic/dt/lab1/p1-esp32-sim-01/telemetry" }
+  ]
+}
